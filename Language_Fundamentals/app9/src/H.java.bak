@@ -1,0 +1,18 @@
+class H
+{
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");//1
+		test1();//2
+		test2();//4
+		System.out.println("main end");//6
+	}
+	public static void test1()
+	{
+		System.out.println("from test1");//3
+	}
+	public static void test2()
+	{
+		System.out.println("from test2");//5
+	}
+}
