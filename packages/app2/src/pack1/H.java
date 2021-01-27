@@ -2,11 +2,11 @@ package pack1;
 class H 
 {
 	private int i;
-	void set(int k)
+	public void set(int k)
 	{
-		i = k;
+		this.i = k;
 	}
-	int get()
+	public int get()
 	{
 		return i;
 	}
