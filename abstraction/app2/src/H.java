@@ -1,5 +1,5 @@
 interface H
 {
-int test1();
-void test2();
+	int test1();
+	void test2();
 }

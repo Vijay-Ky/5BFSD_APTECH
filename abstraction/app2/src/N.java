@@ -1,6 +1,6 @@
 interface N
 {
-	void test1();
+	public void test1();
 }
 class O implements N
 {
@@ -8,7 +8,7 @@ class O implements N
 	{
 		System.out.println("from test1");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		//N n1 =new N();
 		N n2 = null;
