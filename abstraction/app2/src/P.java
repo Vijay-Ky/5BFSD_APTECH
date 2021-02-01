@@ -13,7 +13,7 @@ class Q implements P
 	{
 		System.out.println("from test2");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		Q q1 = new Q();
 		q1.test1();

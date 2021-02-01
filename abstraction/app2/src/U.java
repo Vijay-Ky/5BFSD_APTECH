@@ -2,7 +2,7 @@ interface U
 {
 	void test1();
 	void test2(int i);
-	double test3(boolean b);
+	boolean test3(boolean b);
 }
 abstract class V implements U
 {
@@ -21,10 +21,10 @@ abstract class W extends V
 }
 class X extends W
 {
-	public double test3(boolean b)
+	public boolean test3(boolean b)
 	{
 		System.out.println("from test3");
-		return 29.89;
+		return b;
 	}
 	void test4()
 	{

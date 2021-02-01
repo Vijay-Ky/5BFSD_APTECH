@@ -29,7 +29,7 @@ class L extends K
 	}
 	public static void main(String[]args)
 	{
-		L obj =new L();
+		L obj = new L();
 		obj.test1();
 		obj.test2();
 		obj.test3();

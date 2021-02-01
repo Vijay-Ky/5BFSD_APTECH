@@ -6,6 +6,7 @@ class I
 		switch(i)
 		{
 			case 2:
+			//case 2:
 			case 4:
 			case 6:
 			case 8:
@@ -19,7 +20,7 @@ class I
 			System.out.println("odd");
 			break;
 			default:
-			System.out.println("num is greater than 10");
+			System.out.println("not matching");
 		}
 	}
 }

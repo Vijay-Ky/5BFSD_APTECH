@@ -7,6 +7,8 @@ class G
 		{
 			default:
 				System.out.println("from default");
+			default:
+				System.out.println("from default");
 				break;
 			case 2:
 				System.out.println("from case 2");
