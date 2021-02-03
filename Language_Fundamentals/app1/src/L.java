@@ -11,3 +11,5 @@ class L
 		System.out.println(false);
 	}
 }
+/*in java we have 5 types of literals
+literal - literal is a value that can be assigned to a variable*/

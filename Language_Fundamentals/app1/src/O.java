@@ -1,4 +1,4 @@
-class _$O_$&
+class _$$AB00
 {
 	public static void main(String[] args) 
 	{

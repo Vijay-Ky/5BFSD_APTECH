@@ -8,6 +8,5 @@ class K
 		System.out.println("Hello World!");
 		System.out.print("Hello World!");
 		System.out.print("Hello World!");
-
 	}
 }

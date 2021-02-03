@@ -4,7 +4,7 @@ class R
 	{
 		int i = 12;
 		double j = 100.4;
-		char k = 'a';
+		char k = '%';
 		boolean b = true;
 		String s = "abc";
 		System.out.println(i);
