@@ -3,12 +3,15 @@ class F
 	static int count;
 	F()
 	{
+		count++;
 	}
 	F(int i)
 	{
+		count++;
 	}
 	F(int i, int j)
 	{
+		count++;
 	}
 	//
 	//common code that we suppose to keep in every constructor body

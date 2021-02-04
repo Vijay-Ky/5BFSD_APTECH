@@ -2,7 +2,7 @@ class X
 {
 	public static void main(String[] args) 
 	{
-		int x, y, z = 10, p;
+		int x, y, z = 20, p;
 		x = 10;
 		y = p = 20;
 		System.out.println(x);

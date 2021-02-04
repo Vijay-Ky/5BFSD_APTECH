@@ -1,8 +1,8 @@
-class G
+class A
 {
 	static int p;
 
-	G()
+	A()
 	{
 		p += 10;
 	}
@@ -13,7 +13,7 @@ class G
 
 	void test1()
 	{
-		p1 += 30;
+		p += 30;
 	}
 
 	static void test2()
@@ -23,15 +23,14 @@ class G
 	public static void main(String[] args) 
 	{
 		System.out.println("a: " + p);
-		G g1 = new G();
+		A a1 = new A();
 		System.out.println("b: " + p);
-		g1.test1();
+		a1.test1();
 		System.out.println("c: " + p);
 		test2();
 		System.out.println("d: " + p);
 	}
 }
 /*
-- static members can be used straigt away in the static and non-static 
--	
+- static members can be used straigt away in the static and non-static 	
 */
