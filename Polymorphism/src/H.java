@@ -11,6 +11,7 @@ class H extends G
 	int test1()
 	{
 		System.out.println("from test1.G");
+		return 0;
 	}
 	public static void main(String[] args) 
 	{

@@ -29,7 +29,7 @@ class Z4 extends Z3
 		//System.out.println(obj5.i);
 		//Z3 obj6 = new Z4();
 		//System.out.println(obj6.i);
-		Z4 obj7 = new Z4();
-		obj7.test1(10, 20);
+		//Z4 obj7 = new Z4();
+		//obj7.test1(10, 20);
 	}
 }

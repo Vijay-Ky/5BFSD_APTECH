@@ -1,4 +1,4 @@
-class Manager1 extends Object
+class Manager1 
 {
 	public static void main(String[] args)
 	{

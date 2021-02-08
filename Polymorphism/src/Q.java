@@ -17,5 +17,6 @@ class Q extends P
 	{
 		Q q1 = new Q();
 		q1.test1();
+		q1.test1(20);
 	}
 }

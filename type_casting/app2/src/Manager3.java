@@ -18,6 +18,9 @@ class Manager3
 		D d2 = null;
 		d2 = d1;
 		a2 = new A();
+		//System.out.println(a1 == a2);
+		System.out.println(a1);
+		System.out.println(a2);
 		obj1 = new Object();
 		c1 = new C();
 		d1 = d2;

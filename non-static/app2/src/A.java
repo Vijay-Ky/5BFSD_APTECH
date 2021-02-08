@@ -1,11 +1,4 @@
-class Object
-{
-	Object()
-	{
-		System.out.println("from object class");
-	}
-}
-class A extends Object
+class A
 {
 	A()
 	{

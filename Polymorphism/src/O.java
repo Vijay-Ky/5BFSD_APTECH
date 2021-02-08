@@ -15,6 +15,8 @@ class O extends N
 	public static void main(String[] args) 
 	{
 		N n1 = new O();
-		n1.test1(10);
+		O.test1();
+		N.test1(20);
+		n1.test1(30);
 	}
 }

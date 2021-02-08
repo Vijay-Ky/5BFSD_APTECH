@@ -7,6 +7,6 @@ class Z2
 	}
 	Z2(int i)
 	{
-		this.i = 10;
+		i = 10;
 	}
 }

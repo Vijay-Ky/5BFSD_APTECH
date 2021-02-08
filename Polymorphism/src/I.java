@@ -17,9 +17,9 @@ class I
 
 	public static void main(String[] args) 
 	{
-		A.test1();
-		A.test1(90);
-		A.test1(90, 100);
+		I.test1();
+		I.test1(90);
+		I.test1(90, 100);
 		System.out.println("done");
 	}
 }

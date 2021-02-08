@@ -7,6 +7,6 @@ class W
 	}
 	void test(int a)
 	{
-		System.out.println("from void.test.W");
+		System.out.println("from void.testi(int).W");
 	}	
 }
