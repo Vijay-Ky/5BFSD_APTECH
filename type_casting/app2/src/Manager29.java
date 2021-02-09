@@ -11,6 +11,6 @@ class Manager29
 		Object s1 = new String();
 		Object s2 = new String();
 		System.out.println(s1 == s2);
-
+	
 	}
 }
