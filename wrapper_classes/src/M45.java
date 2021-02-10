@@ -3,7 +3,7 @@ public class M45
 	static void test(int x, String...y)
 	{
 		System.out.println(x);
-		System.out.println(y.lengths);
+		System.out.println(y.length);
 	}
 	public static void main(String [] args)
 	{

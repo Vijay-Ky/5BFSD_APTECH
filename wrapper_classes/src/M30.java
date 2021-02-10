@@ -11,6 +11,7 @@ public class M30
 	}
 	static void test(Double obj)
 	{
+		System.out.println(obj);
 		System.out.println("done");
 	}
 }

@@ -6,6 +6,7 @@ public class M26
 		Integer j = new Integer(10);
 		int k = j.intValue();
 		Integer m = j;
+		System.out.println(j == m);
 		System.out.println("done");
 	}
 }

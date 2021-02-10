@@ -10,7 +10,7 @@ public class M34
 	{
 		//error in case of JDK<=1.4
 		Integer o1 = test();
-		//new integer(test());
+		//new Integer(test());
 		System.out.println("done");
 	}
 }

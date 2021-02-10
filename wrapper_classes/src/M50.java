@@ -1,5 +1,10 @@
 public class M50
 {
+	/*
+	static void test(Byte b1)
+	{
+		System.out.println("Byte");
+	}*/
 	static void test(Double d1)
 	{
 		System.out.println("Double");
@@ -12,12 +17,14 @@ public class M50
 	{
 		System.out.println("Float");
 	}
+	/*
 	//auto-upcasting will be given the first preference
-	/*static void test(Number n1)
+	static void test(Number n1)
 	{
 		System.out.println("Number");
 	}*/
-	/*static void test(Object obj)
+	/*
+	static void test(Object obj)
 	{
 		System.out.println("Object");
 	}*/
