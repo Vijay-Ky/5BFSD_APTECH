@@ -10,11 +10,11 @@ public class M
 	    catch(ArithmeticException ex)
 		{	
 			System.out.println(ex);
-			//System.out.println(i);
+			System.out.println(i);
 			int j = 20;
 			System.out.println(j);
 		}
-		//System.out.println(i);
-		//System.out.println(j);
+		System.out.println(i);
+		System.out.println(j);
 	}
 }

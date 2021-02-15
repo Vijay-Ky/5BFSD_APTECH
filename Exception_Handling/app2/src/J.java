@@ -8,7 +8,10 @@ class J
 		String s1 = sc.next();
 		try
 		{
-			System.out.println("try begin");
+			//String n = null;
+			//String n1 = null;
+			//System.out.println(n.equals(n1));
+			//System.out.println("try begin");
 			int i = Integer.parseInt(s1);
 			System.out.println("------");
 			int k = i / 0;
@@ -21,11 +24,17 @@ class J
 			System.out.println("AE");
 			System.out.println("AE");
 		}
-		catch (NullPointerException ex)
+		catch (NumberFormatException ex)
 		{
 			System.out.println("NFE");
 			System.out.println("NFE");
 			System.out.println("NFE");
+		}
+		catch (NullPointerException ex)
+		{
+			System.out.println("NPE");
+			System.out.println("NPE");
+			System.out.println("NPE");
 		}
 		System.out.println("main end");
 	}

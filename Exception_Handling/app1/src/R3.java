@@ -6,7 +6,7 @@ class R3
 		try
 		{
 		}
-		System.out.println("some statement");
+		//System.out.println("some statement");
 		catch()
 		{
 		}

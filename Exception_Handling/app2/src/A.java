@@ -10,7 +10,6 @@ class A
 		catch (ArithmeticException ex)
 		{
 			System.out.println("catch" + i);
-			
 		}
 		System.out.println("end of main" + i);//local variable of try should not be used in outside the try.
 	}
