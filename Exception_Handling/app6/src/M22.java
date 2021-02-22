@@ -8,7 +8,7 @@ class C extends B
 {
 	C() throws InterruptedException //we can only go for throws not try and catch
 	{
-		this(1);
+		//this(1);
 		/*
 		try
 		{
@@ -19,8 +19,8 @@ class C extends B
 		}
 		*/
 		
-		/*
-		try
+	
+		/*try
 		{
 			super();
 		}

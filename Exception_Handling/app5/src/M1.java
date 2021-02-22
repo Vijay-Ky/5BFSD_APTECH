@@ -15,8 +15,6 @@ class M1
 		System.out.println("Hello World!");
 	}
 }
-
-
 /*
 1. no statement required try catch all the statements compiles successfully
 2. all are produces run time exception.

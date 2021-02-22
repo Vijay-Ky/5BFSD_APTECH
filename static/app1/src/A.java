@@ -1,8 +1,8 @@
 //Global variables and static
 class A 
 {
-	 static int i;//field or property
-	 public static void main(String[]args)
+	 static int i;//field 
+	 public static void main(String[] args)
 	 {
 	    System.out.println(i);
 	 }

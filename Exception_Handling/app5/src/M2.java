@@ -9,8 +9,9 @@ class M2
 		}
 		catch (ClassNotFoundException ex)
 		{
+			System.out.println(ex);
 			ex.printStackTrace();
 		}
-		System.out.println("Hello World!");
+		System.out.println("done");
 	}
 }

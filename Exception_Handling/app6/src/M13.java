@@ -4,12 +4,12 @@ class M13
 	{
 		try
 		{
-			//System.out.println(1000);//this statement doesnt require a try catch	
+			System.out.println(1000);//this statement doesnt require a try catch	
 		}
 		catch (ArithmeticException ex)
 		{
 		}
-		System.out.println("Hello World!");
+		System.out.println("done");
 	}
 }
 /* 

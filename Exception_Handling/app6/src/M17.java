@@ -5,7 +5,7 @@ class M17
 		System.out.println("begin");
 		try
 		{
-			Class.forName("");
+			//Class.forName("");
 		}
 		catch (Exception e)
 		{

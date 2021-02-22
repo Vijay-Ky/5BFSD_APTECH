@@ -1,5 +1,5 @@
 //Developing our own Exception class
-public class AgeIsNegativeException extends ArithmeticException  
+public class AgeIsNegativeException extends Throwable
 {
 	public AgeIsNegativeException(String msg)
 	{

@@ -10,17 +10,20 @@ class M15
 			Class.forName("");
 			Class.forName("");
 		}
+		
 		catch (ClassNotFoundException ex)
 		{
 		}
-		System.out.println("done");
-		*/
+		System.out.println("done");*/
 		try
 		{
 			Class.forName("");
 			Thread.sleep(10000);
 		}
 		catch (ClassNotFoundException ex)
+		{
+		}
+		catch (InterruptedException ex)
 		{
 		}
 	

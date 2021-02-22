@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class M4
 {
-	public static void main(String[] args) 
+	public static void main(String[] args) throws Throwable
 	{
 		System.out.println(1);
 		Scanner sc = new Scanner(System.in);
@@ -9,7 +9,7 @@ class M4
 		int age = sc.nextInt();
 		if(age <= 0)
 		{
-			throw new AgeIsNegativeException("age should be greater than 0");
+			throw new AgeIsNegativeException("some reson");
 		}
 		System.out.println(2);
 	}
