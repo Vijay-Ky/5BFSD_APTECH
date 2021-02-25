@@ -13,4 +13,4 @@ public class V {
  * considering s1 content as null.
  * we are not adding null to the s1
  * when we call any property or method from the null reference we get NullPointerException
-**/
+*/

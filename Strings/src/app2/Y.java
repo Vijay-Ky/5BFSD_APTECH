@@ -9,7 +9,7 @@ public class Y {
 		System.out.println(s1.equals(s2));
 	}
 }
-/* totally 3 string objects are created
+/* totally 1 string object created
  * "hello" is a constant. initialy one constant is created.
    then taking that constant reference supplying to the string
    constructor and defining a second object.
