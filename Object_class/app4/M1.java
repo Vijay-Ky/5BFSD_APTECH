@@ -1,7 +1,9 @@
+package app4;
+
 //finalize method
 class A
 {
-	protected void finalize() throws Throwable
+	 protected void finalize() throws Throwable
 	{
 		System.out.println("from finalize");
 	}
@@ -12,7 +14,7 @@ class M1
 	{
 		A a1 = new A();
 		a1 = null;
-		System.out.println("end");
+		System.out.println("end of the program");
 	}
 }
 /*
@@ -27,7 +29,7 @@ object we call it as resurrected object.
 abandoned objects we can also call as garbage objects.
 - once object becomes garbage object, in java there is one thread called
 garbage collector it is a internal demon thread once in a while
-going to the heap to check any abadoned objects are there if
+going to the heap to check any abandoned objects are there if
 there call finalize method on abandoned object, check whether if
 it is still abandoned or not, if still abandoned then remove from
 the memory.

@@ -13,7 +13,9 @@ class D
 		String s1 = Integer.toString(i);
 		String s2 = Integer.toString(j);
 		int hash = s1.hashCode();
+		System.out.println(s1.hashCode() + ", "  + s2.hashCode());
 		hash += s2.hashCode();
+		System.out.println("final hashcode is: " + hash );
 		return hash;
 	}
 }
@@ -33,7 +35,7 @@ class M9
 }
 /*
 Object class
-equals method evaluating two references Object class hascode
+equals method evaluating two references. Object class hascode
 method we can can evaluated two objects addresses. we dont want
 object class hashcode and equals method, instead we can override
 object class hashcode and equals method mainly to compare two
