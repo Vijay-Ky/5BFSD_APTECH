@@ -1,6 +1,6 @@
-package app1;
+package pack1;
 
-class C < X >
+class C <X>
 {
 	X i;
 }
@@ -8,7 +8,7 @@ class Manager2
 {
 	public static void main(String [] args)
 	{
-		C <String> c1 = new C <String> ();
+		C <String>c1 = new C<String>();
 		c1.i = "abc";
 		C <Integer>c2 = new C<Integer>();
 		c2.i = 20;
