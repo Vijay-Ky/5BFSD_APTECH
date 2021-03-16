@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MM3
+public class M1
 {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args)

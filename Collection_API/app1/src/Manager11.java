@@ -12,7 +12,8 @@ public static void main(String[] args) {
 		list.add(3);
 		System.out.println(list);
 		list.clear();//remove all list element
-		System.out.println(list);	
+		//if list is empty return true
+		System.out.println(list.isEmpty());	
 	}
 }
 

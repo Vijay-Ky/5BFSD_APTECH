@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-class MM5 
+class M2
 {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) 
