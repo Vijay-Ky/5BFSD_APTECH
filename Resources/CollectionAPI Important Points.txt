@@ -74,6 +74,25 @@ Map
 4.every element adding along with the key.
 5.get method is there in the map also we supply key and value.
 
+6.under Map we have HashMap, Hashtable, LinkedHashMap and TreeMap 4 classes are available.
+7.HashMap is the non-synchronized.
+8.HashMap allows null as a key and null as a value.
+9.Hashtable is the synchronized.
+10.Hashtable doesnt allow null as a key and null as a value.
+11.LinkedHashMap it maitains the order.
+12.TreeMap is used for sorting purpose.sorting all the entries based on the key is the TreeMap.
+
+
+Note: in case of List, Collection is for sorting
+	in case of Set, TreeSet for sorting
+	in case of Queue, PriorityQueue for sorting
+	in case of Map, it is TreeMap.
+
+Note: get method available in two streams List and Map. under List index as the element. under Map key as the element. 
+
+13.Map is a interface it is not extending to the Collection interface
+14.under Map SortedMap and NavigableMap both are interfaces.
+
 
 - Only in all the List type order is preserved.
 
