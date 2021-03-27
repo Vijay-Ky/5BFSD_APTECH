@@ -16,3 +16,9 @@ public class Thread implements Runnable
     ...........
 	...........
 }
+
+Object
+-----------
+wait()
+notify()
+notifyAll()

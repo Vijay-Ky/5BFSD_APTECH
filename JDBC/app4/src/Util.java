@@ -50,7 +50,6 @@ class Util
 		}
 		//establishing a connection
 		Connection con = DriverManager.getConnection(url, un, pw);
-		System.out.println("con:" + con);
 		//returning a connection
 		return con;
 	}

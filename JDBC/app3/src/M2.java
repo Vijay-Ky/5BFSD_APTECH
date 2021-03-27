@@ -57,7 +57,7 @@ class M2
 			int cols = rsmd.getColumnCount();
 			for (int i = 1; i <= cols; i++)
 			{
-				System.out.println(rsmd.getColumnName(i) + "\t");
+				System.out.print(rsmd.getColumnName(i) + "\t");
 			}
 			System.out.println();
 			System.out.println("--------------------");
